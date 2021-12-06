@@ -65,11 +65,7 @@ function generatePassword() {
 
     for (var i = 0; i < characterLength; i++) {
     
-        var index = (Math.floor(Math.random() * userInput.length));
-        password = password + userInput[index]
-    }
 
-    return password
 }
 
 // Add event listener to generate button
